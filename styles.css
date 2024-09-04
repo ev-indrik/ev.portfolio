@@ -44,10 +44,32 @@ html {
 }
 
 .person-img {
-  max-width: 100%;
-  max-height: 200px;
-  width: auto;
-  height: auto;
-  border-radius: 2%;
+  padding: 0.5rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
   object-fit: cover;
+  border: 0.4rem solid #495c7a;
+  opacity: 0.9;
+  background-color: #ffffff;
+}
+
+.personal-name {
+  margin: 5rem 0;
+  padding: 0.5rem 3rem;
+  font-size: 2rem;
+  color: #ffffff;
+  background-color: #ff9a6f;
+  letter-spacing: 0.5rem;
+  transform: skew(-10deg);
+}
+
+.section-1-btn {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  background-color: #495c7a;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 0.3rem solid #fff;
+  letter-spacing: 0.3rem;
 }
