@@ -57,9 +57,10 @@ html {
 .personal-name {
   margin: 5rem 0;
   padding: 0.5rem 3rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
   color: #ffffff;
   background-color: #ff9a6f;
+  border-bottom: 0.3rem solid #fff;
   letter-spacing: 0.5rem;
   transform: skew(-10deg);
 }
@@ -72,4 +73,5 @@ html {
   text-transform: uppercase;
   border: 0.3rem solid #fff;
   letter-spacing: 0.3rem;
+  transform: skew(-10deg);
 }
