@@ -135,3 +135,37 @@ html {
   border-bottom: 0.2rem solid #495c7a;
   text-shadow: 0.2rem 0.2rem 0.3rem #495c7a;
 }
+
+.progress-bars-wrapper {
+  margin-bottom: 10rem;
+}
+
+.progress-bar {
+  margin: 1.5rem 0;
+  position: relative;
+  width: 60rem;
+  height: 3rem;
+  background-color: #ff9a6f;
+  border-radius: 0.3rem;
+  box-shadow: 0.2rem 0.2rem 0.3rem #5e3f3294;
+}
+
+.progress-text {
+  position: absolute;
+  left: 1rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.progress-text span {
+  margin: 0 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.progress-percent {
+  width: 90%;
+  height: 100%;
+  background-color: #83564394;
+  border-radius: 0.3rem;
+}
