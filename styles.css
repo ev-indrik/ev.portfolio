@@ -237,6 +237,11 @@ html {
   border-radius: 0.3rem;
   box-shadow: 0.2rem 0.2rem 0.3rem #495c7a;
   overflow: hidden;
+  transition: box-shadow 0.5s;
+}
+
+.project-item:hover {
+  box-shadow: 1rem 1rem 1rem #ca927b;
 }
 
 .project-text {
@@ -245,10 +250,12 @@ html {
   letter-spacing: 0.1rem;
   top: -10rem;
   transition: top 0.3s;
+  z-index: 10;
 }
 
 .project-item:hover .project-text {
   top: 5rem;
+  transition: top 0.3s 0.3s;
 }
 
 .project-name {
@@ -289,4 +296,5 @@ html {
 
 .project-item:hover .project-link {
   bottom: 5rem;
+  transition: bottom 0.3s 0.3s;
 }
