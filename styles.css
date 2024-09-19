@@ -49,7 +49,7 @@ html {
   font-size: 7rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
-  background-color: rgb(255, 154, 111);
+  background-color: #ffc8aa;
   letter-spacing: 0.5rem;
   border-bottom: 0.3rem solid #fff;
   text-shadow: 0.2rem 0.2rem 1rem #b36d4f;
@@ -297,4 +297,52 @@ html {
 .project-item:hover .project-link {
   bottom: 5rem;
   transition: bottom 0.3s 0.3s;
+}
+
+.section-4 {
+  width: 100%;
+  height: 70vh;
+  background-color: #495c7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-4-heading {
+  color: #fff;
+  box-shadow: none;
+  border-color: #fff;
+}
+
+.contact-form {
+  width: 50rem;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background-color: #eef;
+  font-size: 1.5rem;
+  border: 0.2rem solid #ffc8aa;
+  color: #495c7a;
+  border-radius: 0.3rem;
+}
+
+.contact-form textarea {
+  height: 10rem;
+  min-height: 15rem;
+  min-width: 100%;
+}
+
+.contact-form .contact-form-btn {
+  background-color: #ffc8aa;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
