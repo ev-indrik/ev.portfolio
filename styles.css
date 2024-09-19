@@ -93,6 +93,13 @@ html {
   width: 100%;
   height: 4rem;
   background-color: #495c7a;
+  position: absolute;
+  z-index: 300;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
 
 .navbar-link {
