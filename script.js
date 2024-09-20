@@ -8,6 +8,10 @@ const progress = document.querySelector(".progress-bars-wrapper");
 const progressBarPercents = [90, 75, 70, 70, 65, 50];
 
 window.addEventListener("scroll", () => {
+  mainFn();
+});
+
+const mainFn = () => {
   if (window.pageYOffset >= navbarOffsetTop) {
     navbar.classList.add("sticky");
   } else {
@@ -33,4 +37,10 @@ window.addEventListener("scroll", () => {
         progressBarPercents[i];
     });
   }
+};
+
+mainFn();
+
+window.addEventListener("resize", () => {
+  window.location.reload();
 });
