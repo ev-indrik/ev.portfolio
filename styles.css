@@ -5,7 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", serif;
   font-weight: 400;
 }
 
@@ -113,6 +113,10 @@ html {
   transition: color 0.2s;
 }
 
+.change.navbar-link {
+  color: #eef;
+}
+
 .navbar-link:hover {
   color: #f7b294;
 }
@@ -126,6 +130,10 @@ html {
   height: 0.2rem;
   background-color: #fff;
   transition: width 0.2s;
+}
+
+.change.navbar-link::before {
+  width: 120%;
 }
 
 .navbar-link:hover::before {
