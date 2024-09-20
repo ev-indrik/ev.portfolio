@@ -180,10 +180,11 @@ html {
 }
 
 .progress-percent {
-  width: 90%;
+  width: 0%;
   height: 100%;
   background-color: #83564394;
   border-radius: 0.3rem;
+  transition: width 0.5s 0.5s ease-in-out;
 }
 
 .services {
