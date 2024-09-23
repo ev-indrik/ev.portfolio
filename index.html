@@ -280,10 +280,14 @@
 
       <section class="section-4" id="section-4">
         <h2 class="section-heading section-4-heading">Contact Me</h2>
-        <form class="contact-form center">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
+        <form
+          class="contact-form center"
+          action="https://formspree.io/f/xkgwlpye"
+          method="post"
+        >
+          <input type="text" placeholder="Name" name="name" required />
+          <input type="email" placeholder="Email" name="email" required />
+          <textarea placeholder="Message" name="message" required></textarea>
           <input class="contact-form-btn" type="submit" value="Submit" />
         </form>
       </section>
