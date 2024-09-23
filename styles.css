@@ -290,11 +290,15 @@ html {
 
 .project-img {
   width: 40rem;
+  max-width: 40rem;
+  height: 24rem;
+  max-height: 24rem;
   transition: opacity 0.3s;
+  object-fit: cover;
 }
 
 .project-item:hover .project-img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .project-link {
@@ -466,7 +470,8 @@ html {
     font-size: 45%;
   }
 
-  .section-1-heading {
+  .section-1-heading,
+  .personal-name {
     font-size: 2.5rem;
   }
 
