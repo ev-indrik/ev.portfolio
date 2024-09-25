@@ -345,7 +345,7 @@ html {
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  background-color: #fff;
+  background-color: #cad6eb;
   border-radius: 0.3rem;
   box-shadow: 0.2rem 0.2rem 0.3rem #495c7a;
   overflow: hidden;
@@ -394,13 +394,6 @@ html {
 
 .project-item:hover .project-img {
   opacity: 0.1;
-  background: linear-gradient(
-    to top right,
-    rgba(180, 190, 210, 0.3),
-    rgba(255, 200, 170, 0.2),
-    rgba(255, 255, 255, 0.2),
-    rgba(200, 225, 240, 0.3)
-  );
 }
 
 .project-link {
