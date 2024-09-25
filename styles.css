@@ -202,9 +202,9 @@ html {
   margin-bottom: 0.4rem;
 }
 
-.about-text-wrapper a {
+/* .about-text-wrapper a {
   color: #000;
-}
+} */
 
 .courses-list {
   margin-bottom: 2rem;
@@ -214,8 +214,15 @@ html {
   padding-left: 0.4rem;
 }
 
-.courses-list-item a {
+.courses-list-item a,
+.about-text-wrapper a {
   color: #000;
+  transition: all 300ms ease;
+}
+
+.courses-list-item a:hover,
+.about-text-wrapper a:hover {
+  color: #2b4061;
 }
 
 .about {
@@ -494,6 +501,14 @@ html {
   letter-spacing: 0.2rem;
   font-weight: 300;
   text-align: center;
+}
+
+.copyright a {
+  color: #eef;
+}
+
+.copyright a:hover {
+  color: #b36d4f;
 }
 
 @media (max-width: 1200px) {
