@@ -41,9 +41,9 @@ const mainFn = () => {
 
 mainFn();
 
-window.addEventListener("resize", () => {
-  window.location.reload();
-});
+// window.addEventListener("resize", () => {
+//   window.location.reload();
+// });
 
 // formspree - clear a form after submission
 window.onbeforeunload = () => {
