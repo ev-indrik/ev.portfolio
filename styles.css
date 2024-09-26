@@ -393,6 +393,7 @@ html {
 .project-img {
   width: 40rem;
   max-width: 40rem;
+  min-width: 40rem;
   height: 24rem;
   max-height: 24rem;
   transition: opacity 0.3s;
@@ -407,12 +408,12 @@ html {
   position: absolute;
   font-size: 2rem;
   font-weight: 500;
-  color: #495c7a;
+  color: #eef;
   letter-spacing: 0.1rem;
   border: 0.1rem solid #495c7a;
   border-radius: 0.3rem;
-  padding: 0.1rem;
-  background-color: #ff9a6f;
+  padding: 0.1rem 0.4rem 0.2rem 0.1rem;
+  background-color: #495c7a;
   bottom: -5rem;
   transition: bottom 0.3s;
 }
