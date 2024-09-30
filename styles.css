@@ -554,14 +554,17 @@ html {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .section-1-heading {
     font-size: 3rem;
   }
 
+  .navbar {
+    justify-content: center;
+  }
   .navbar-link {
     margin: 0 2rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .section-2 {
@@ -593,9 +596,17 @@ html {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   html {
     font-size: 55%;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar-link {
+    font-size: 1.3rem;
   }
 }
 
@@ -610,7 +621,7 @@ html {
   }
 
   .navbar-link {
-    margin: 0 1.5rem;
+    margin: 0 1.4rem;
   }
 
   .section-2-heading {
