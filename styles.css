@@ -404,8 +404,10 @@ html {
 
 .project-techs {
   font-size: 1.6rem;
+  padding: 0.2rem 1rem;
   font-weight: 600;
   color: #5d80bd;
+  background-color: #eef;
   text-transform: uppercase;
 }
 
@@ -567,6 +569,10 @@ html {
     font-size: 1.4rem;
   }
 
+  .cv-diagram {
+    min-width: 50rem;
+  }
+
   .section-2 {
     padding: 10rem;
   }
@@ -607,6 +613,10 @@ html {
 
   .navbar-link {
     font-size: 1.3rem;
+  }
+
+  .cv-diagram {
+    min-width: 50rem;
   }
 }
 
