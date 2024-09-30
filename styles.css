@@ -169,9 +169,28 @@ html {
 
 .about-text-wrapper {
   width: 90%;
+  height: auto;
   padding: 0 0.5rem 1rem 0;
   text-align: justify;
   font-size: 2rem;
+}
+
+.cv-diagram-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.3rem 0 0.5rem;
+}
+
+.cv-diagram {
+  max-width: 70%;
+  width: 70%;
+  height: auto;
+}
+
+.cv-diagram-2 {
+  max-height: 58rem;
+  width: auto;
 }
 
 /*list decoration style via :before*/
