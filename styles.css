@@ -63,7 +63,7 @@ html {
 }
 
 .section-1-heading {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   padding: 0 3rem 0.5rem 3rem;
   font-size: 7rem;
   font-weight: 600;
@@ -72,6 +72,16 @@ html {
   letter-spacing: 0.5rem;
   border-bottom: 0.3rem solid #fff;
   text-shadow: 0.2rem 0.2rem 1rem #b36d4f;
+  transform: skew(-10deg);
+}
+
+.explanation-p {
+  margin-bottom: 4rem;
+  font-size: 20px;
+  padding: 8px;
+  background: #495c7a;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
   transform: skew(-10deg);
 }
 
