@@ -20,6 +20,10 @@ html {
   align-items: center;
 }
 
+.container {
+  border: 4px solid mediumseagreen;
+}
+
 .section-heading {
   margin-bottom: 6rem;
   font-size: 4rem;
